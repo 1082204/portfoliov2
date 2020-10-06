@@ -139,8 +139,8 @@ header {
 }
 
 .tab-picture {
-    max-height: 703px;
-    margin-top: -1px;
+    max-height: 702px;
+    overflow: hidden;
 }
 
 .highlight {
@@ -326,6 +326,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 footer div {
